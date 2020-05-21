@@ -1,0 +1,41 @@
+// app global css in SCSS form
+
+.input-container {
+  ::-webkit-input-placeholder {
+    color: $grey-6;
+    font-style: italic;
+  }
+  :-moz-placeholder {
+    color: $grey-6;
+    font-style: italic;  
+  }
+  ::-moz-placeholder {
+    color: $grey-6;
+    font-style: italic;  
+  }
+  :-ms-input-placeholder {
+    color: $grey-6;  
+    font-style: italic; 
+  }
+  
+  .q-field__control {
+    height: 30px;
+    border-radius: 4px;
+
+    .input-container__input {
+      padding: 0 1rem;
+      font-size: 10.5px;
+    }
+
+    .q-field__append {
+      height: 30px;
+    }
+  }
+}
+
+.q-checkbox__inner--falsy {
+  .q-checkbox__bg {
+    background-color: $grey-2;
+    border: 2px solid $grey-3;
+  }
+}
